@@ -41,16 +41,16 @@ Provision a local **Docker container** using **Terraform** on a provisioned AWS 
 
 ## Files 
 
-*main.tf: Terraform configuration file.
+- main.tf: Terraform configuration file.
 
-init.log: Terraform initialization log.
+- init.log: Terraform initialization log.
 
-plan.log: Terraform plan log.
+- plan.log: Terraform plan log.
 
-apply.log: Terraform apply log.
+- apply.log: Terraform apply log.
 
-state.log: Terraform state list log.
+- state.log: Terraform state list log.
 
-destroy.log: Terraform destroy log.
+- destroy.log: Terraform destroy log.
 
 --

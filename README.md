@@ -49,3 +49,36 @@ Automation reduces human error
 Multi-cloud support
 Reusable modules
 Change preview with plan
+About
+Task-3
+
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 1 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+HCL
+100.0%
+Footer
+© 2025 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Pravalika-27/Elevate-Labs-IaC-Docker: Task-3
+ 

@@ -53,26 +53,26 @@ Provision a local **Docker container** using **Terraform** on a provisioned AWS 
 
 - destroy.log: Terraform destroy log.
 
---
 
- Outcome
+ ## Outcome
+ 
  Successfully provisioned and destroyed an Nginx container using Terraform, demonstrating Infrastructure as Code (IaC) principles.
 
- Interview Q&A
+ ## Interview Q&A
  
-1 What is Infrastructure as Code (IaC)?
+# 1 What is Infrastructure as Code (IaC)?
 
 IaC is the process of managing infrastructure using configuration files rather than manual provisioning, enabling version control, repeatability, and automation.
 
-2 How does Terraform work?
+# 2 How does Terraform work?
 
 Terraform uses declarative configuration files to describe infrastructure. It compares the desired state with the current state and applies necessary changes through API calls.
 
-3 What is a Terraform state file?
+# 3 What is a Terraform state file?
 
 The terraform.tfstate file tracks the real-world resources Terraform manages, mapping them to the configuration defined in your .tf files.
 
-4 Difference between terraform plan and terraform apply?
+# 4 Difference between terraform plan and terraform apply?
 
 plan: Previews changes without applying them.
 
@@ -87,6 +87,7 @@ Providers are plugins that interact with APIs (e.g., AWS, Docker, Azure). They d
 When one resource depends on another. Terraform auto-detects dependencies, but depends_on can be used to define explicit relationships.
 
 7 How do you handle secret variables?
+
 Use variable "secret" { sensitive = true }
 
 Environment variables
